@@ -1,0 +1,23 @@
+.v-application {
+  [class*="text-"] {
+    font-family: "Roboto", "Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
+  font-family: "Roboto", "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.itemsCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+}
+.just-center {
+  left: 50%;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-right: 60px;
+}
